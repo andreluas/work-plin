@@ -44,22 +44,28 @@ section > .title {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 50px auto;
+    margin: 50px 400px;
 }
 
 .lorem {
-    text-align: justify;
+    font-size: 20px;
+    text-align: center;
     width: 400px;
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.point > ul > li {
+    margin-bottom: 20px;
+    border: 1px solid var(--blue);
+    width: 500px;
+    padding: 15px;
+    border-radius: 10px;
 }
 
 .btn {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.point > ul > li {
-    margin-bottom: 20px;
-    border: 1px solid var(--blue);
-    width: 200px;
 }
