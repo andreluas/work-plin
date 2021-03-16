@@ -42,9 +42,8 @@ section > .title {
 
 .menu-point {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    margin: 50px 400px;
 }
 
 .lorem {
@@ -54,14 +53,21 @@ section > .title {
     border: 1px solid black;
     padding: 15px;
     border-radius: 8px;
+    margin-left: 3%;
 }
 
 .point > ul > li {
-    margin-bottom: 20px;
     border: 1px solid var(--blue);
     width: 500px;
     padding: 15px;
     border-radius: 10px;
+}
+
+.point > ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 270px;
 }
 
 .btn {
@@ -85,5 +91,5 @@ footer {
 }
 
 .footer-div li {
-    margin-top: 10px;
+    margin: 10px 0;
 }
