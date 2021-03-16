@@ -68,5 +68,22 @@ section > .title {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #6C63FF;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+    background-color: var(--blue);
+    margin-top: 150px;    
+}
+
+.footer-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-div li {
+    margin-top: 10px;
 }
