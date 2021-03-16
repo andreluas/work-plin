@@ -68,4 +68,5 @@ section > .title {
     display: flex;
     justify-content: center;
     align-items: center;
+    background: #6C63FF;
 }
