@@ -19,7 +19,7 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 75px;
+    height: 100px;
 }
 
 .nav-links > a {
@@ -44,6 +44,7 @@ section > .title {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 80px 0;
 }
 
 .lorem {
@@ -53,14 +54,7 @@ section > .title {
     border: 1px solid black;
     padding: 15px;
     border-radius: 8px;
-    margin-left: 3%;
-}
-
-.point > ul > li {
-    border: 1px solid var(--blue);
-    width: 500px;
-    padding: 15px;
-    border-radius: 10px;
+    margin-left: 2%;
 }
 
 .point > ul{
@@ -70,10 +64,28 @@ section > .title {
     height: 270px;
 }
 
+.point > ul > li {
+    border: 1px solid var(--blue);
+    width: 400px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
 .btn {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+button {
+    border-style: none;
+    background-color: var(--black);
+    color: var(--blue);
+    border-radius: 15px;
+    width: 400px;
+    padding: 5px;
+    font-size: 30px;
+    font-weight: 900;
 }
 
 footer {
@@ -92,4 +104,8 @@ footer {
 
 .footer-div li {
     margin: 10px 0;
+}
+
+span {
+    color: var(--blue);
 }
