@@ -11,7 +11,7 @@
 /* COLORS */
 :root {
     --blue: #6C63FF;
-    --black: #000000
+    --black: #000000;
 }
 
 /* basic */
@@ -83,6 +83,7 @@ section > .title {
     padding: 15px;
     border-radius: 8px;
     margin-left: 2%;
+    box-shadow: 5px 4px 10px 0px #c4c4c4;
 }
 
 .point > ul{
@@ -98,6 +99,7 @@ section > .title {
     padding: 13px;
     border-radius: 10px;
     font-size: 20px;
+    box-shadow: 5px 6px 15px 0px #c4c4c4;
 }
 
 .btn {
