@@ -50,6 +50,7 @@
 
     .text {
         margin-right: 100px;
+        margin: 0;
     }
 
     .work-plin {
@@ -70,5 +71,25 @@
 
     .footer-div > ul > li {
         font-size: 20px;
+        text-align: center;
+    }
+
+    .h1-footer {
+        text-align: center;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .text {
+        margin-right: 100px ;
+    }
+
+    .footer-div{
+        margin-top: 5px;
+    }
+
+    .h1-footer {
+        white-space: nowrap;
     }
 }
