@@ -83,3 +83,11 @@ Capture a screenshot, gif or video and share your result in Linkedin<br>
 Send me a feedback in <a href="https://www.linkedin.com/in/lubomfim">Linkedin</a>!<br>
 
 Designed and created by <a href="https://github.com/lubomfim">Lucas</a> :)
+
+___
+# My Solutions :tada:
+## Desktop
+![desktop](design/solutions/desktop.png)
+
+## Mobile
+![mobile](design/solutions/mobile.png)
