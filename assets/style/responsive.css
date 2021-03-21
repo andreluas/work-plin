@@ -55,6 +55,20 @@
     .work-plin {
         transform: scale(0.6);
         position: relative;
-        right: 20px;
+        right: 50px;
+        top: -130px;
+    }
+
+    footer {
+        flex-direction: column-reverse;  
+        padding: 150px;
+    }
+
+    .footer-div{
+        margin-top: 35px;
+    }
+
+    .footer-div > ul > li {
+        font-size: 20px;
     }
 }
